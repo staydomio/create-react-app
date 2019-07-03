@@ -410,7 +410,7 @@ module.exports = function(webpackEnv) {
                 compact: false,
                 presets: [
                   [
-                    require.resolve('babel-preset-react-app/dependencies'),
+                    require.resolve('babel-preset-react-app'),
                     { helpers: true },
                   ],
                 ],
